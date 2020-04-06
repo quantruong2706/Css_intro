@@ -1,0 +1,33 @@
+header{
+	font-family: Arial,sans-serif;
+	background-color: #DDD;
+}
+.header-menu{
+	display:flex ;
+}
+.logo{
+	padding: 12px 16px;
+	font-size: 2em;
+}
+.logo a{
+	text-decoration: none;
+}
+.menu{
+	flex-grow: 1;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.menu ul li{
+	padding: 8px 16px;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 16px 16px;
+}
+.menu ul li a:hover {
+	background-color: #EEE;
+}

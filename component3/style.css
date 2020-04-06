@@ -1,0 +1,33 @@
+.img-cover-big{
+	width: 370px;
+	height: 430px;
+	background-color: #DDD;
+	background-image: url("https://loremflickr.com/g/370/430/paris");
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	background-position: center;
+	color: #FFF;
+	font-size: 0.9em;
+}
+.img-cover-big .overlay-big{
+	height: 100%;
+	background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 100%);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 80%;
+}
+.img-cover-big .overlay-big .post-categories span{
+	display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: .6rem;
+    text-transform: uppercase;
+}
+.img-cover-big .overlay-big .text span{
+	opacity: 0.5;
+}

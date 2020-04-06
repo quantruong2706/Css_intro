@@ -1,0 +1,16 @@
+.content{
+	width: 370px;
+	height: 600px;
+	font-family: Arial,sans-serif;
+}
+.content .content-lorem .author{
+	display: flex;
+}
+
+.content .content-lorem .author span{
+	opacity: 0.4;
+	font-size: 0.9em;
+}
+a{
+	text-decoration: none;
+}
